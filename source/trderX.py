@@ -277,13 +277,15 @@ class Trader(QMainWindow):
     def __init__(self,parent):
         super(Trader, self).__init__()
         self.parent = parent
-        self.setWindowTitle("TrderX")
+        self.setWindowTitle("trderX")
         self.setWindowIcon(QIcon('icon.png'))
 
         loader = QUiLoader()
-        path = os.fspath(Path(__file__).resolve().parent / "form.ui")
-        ui_file = QFile(path)
-        # ui_file = QFile('form.ui')
+
+        # path = os.fspath(Path(__file__).resolve().parent / "form.ui")
+        # ui_file = QFile(path)
+
+        ui_file = QFile('form.ui')
         ui_file.open(QFile.ReadOnly)
         self.ui = loader.load(ui_file, self)
 
@@ -582,13 +584,13 @@ class Trader(QMainWindow):
             self.fee = 0
 
         try:
-            _int = int(self.ui.TP.text())
+            _float = float(self.ui.TP.text())
 
         except:
-            _int = 0
+            _float = 0.0
 
 
-        if self.ui.TP.text() != '' and  _int != 0:
+        if self.ui.TP.text() != '' and  _float != 0:
 
             self.TP = float(self.ui.TP.text())
         else:
@@ -728,7 +730,7 @@ class Trader(QMainWindow):
         return self.mt5_order_limit(symbol, lot, self.trade_price, _type="sell", sl=_sl, tp=_tp)
 
     def mt5_order_market(self, symbol, lot, _type="buy", sl=None, tp=None):
-        # print("order_market()")
+        print("  ----------------------------------  order_market()  --------------------------------------------------------------------")
 
         if _type == "buy":
             _type = mt5.ORDER_TYPE_BUY
