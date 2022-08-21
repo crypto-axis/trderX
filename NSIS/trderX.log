@@ -1,0 +1,18 @@
+Processing config: C:\Program Files (x86)\NSIS\nsisconf.nsh
+Processing script file: "C:\Users\axus3\AppData\Local\Temp\nsjE6CC.tmp" (ACP)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "C:\Users\axus3\PycharmProjects\MT5-2\NSIS\Output\trderX\trderX.exe"
+Install: 4 pages (256 bytes), 2 sections (2 required) (4144 bytes), 366 instructions (10248 bytes), 176 strings (7932 bytes), 1 language table (298 bytes).
+Uninstall: 3 pages (256 bytes), 1 section (2072 bytes), 271 instructions (7588 bytes), 154 strings (4740 bytes), 1 language table (286 bytes).
+
+Using zlib compression.
+
+EXE header size:               53248 / 39936 bytes
+Install code:                   4426 / 23342 bytes
+Install data:              132135569 / 132947905 bytes
+Uninstall code+data:           30196 / 34517 bytes
+CRC (0xCFCEE50B):                  4 / 4 bytes
+
+Total size:                132223443 / 133045704 bytes (99.3%)

@@ -1,0 +1,1 @@
+right clic on TrderX.nsi => COMPILE NSIS Script
