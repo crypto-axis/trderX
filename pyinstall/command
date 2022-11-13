@@ -1,0 +1,6 @@
+build ressource file:
+
+pyrcc5 source/res.qrc -o source/res.py
+
+pyinstaller --onefile  --icon=icon.png --noconsole  --add-data="source/form.ui;." --add-data="source/trderX-logo.png;." --add-data="source/icon.png;." source/trderX.py
+

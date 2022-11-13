@@ -1,0 +1,22 @@
+Processing config: C:\Program Files (x86)\NSIS\nsisconf.nsh
+Processing script file: "C:\Users\axus3\AppData\Local\Temp\nsx6B50.tmp" (ACP)
+
+Processed 1 file, writing output (x86-unicode):
+
+Output: "C:\Users\axus3\Desktop\Nsisqssg\Output\TrderX\setup.exe"
+Install: 3 pages (192 bytes), 2 sections (2 required) (4144 bytes), 2182 instructions (61096 bytes), 1469 strings (59888 bytes), 1 language table (282 bytes).
+Uninstall: 3 pages (256 bytes), 1 section (2072 bytes), 2098 instructions (58744 bytes), 1981 strings (198028 bytes), 1 language table (286 bytes).
+Datablock optimizer saved 9517 bytes (~0.0%).
+
+Using zlib compression.
+
+EXE header size:               53248 / 39936 bytes
+Install code:                  22970 / 126066 bytes
+Install data:              132989232 / 333157674 bytes
+Uninstall code+data:           47483 / 52129 bytes
+CRC (0x326503CD):                  4 / 4 bytes
+
+Total size:                133112937 / 333375809 bytes (39.9%)
+
+1 warning:
+  9000: Insecure filename "setup.exe", Windows will unsafely load compatibility shims into the process.
